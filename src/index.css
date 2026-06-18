@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Bebas+Neue&family=Bungee&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Rubik+Storm&display=swap');
+@import "tailwindcss";
+
+html,body{
+    margin:0;
+    padding:0;
+}
+.fc-scroller::-webkit-scrollbar{
+    display:none;
+}
+.fc-day-today{
+    background-color:rgb(7, 142, 239) !important;
+}
+.fc .fc-toolbar-title{
+    font-size:large;
+    font-weight:600;
+    width:140px;
+    position:relative;
+    right:5px;
+    text-align:center;
+}
+@theme{
+ --font-play:"Playfair Display", serif;
+ --font-bebas:"Bebas Neue", sans-serif;
+ --font-smooch:"Smooch Sans", sans-serif;
+}
+/* Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance:none;
+  margin: 0;
+}
+
+.recharts-sector:focus {
+  outline: none;
+}
+
+svg:focus {
+  outline: none;
+}
