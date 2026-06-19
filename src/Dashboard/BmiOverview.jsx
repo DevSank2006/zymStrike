@@ -7,7 +7,7 @@ const BmiOverview=({userId,token})=>{
     
     useEffect(()=>{
         const getBmi=async()=>{
-            const getData=await fetch(`http://localhost:8080/health-records/recent/${userId}`,{
+            const getData=await fetch(`https://zymstrike-backend.onrender.com/health-records/recent/${userId}`,{
                 method:"GET",
                 headers:{
                     "Authorization":`Bearer ${token}`

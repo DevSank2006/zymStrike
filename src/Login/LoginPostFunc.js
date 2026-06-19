@@ -2,7 +2,7 @@
 const LoginPostFunc=async(email,passkey,setMessage,navigate,setUserId,setToken)=>{
 
 
-    const sendData=await fetch("http://localhost:8080/users/login",{
+    const sendData=await fetch("https://zymstrike-backend.onrender.com/users/login",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"

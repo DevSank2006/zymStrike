@@ -17,7 +17,7 @@ return <div className="w-full min-h-screen overflow-x-hidden bg-[#8e8e8e] flex f
     <CurBreak streak={streak} setStreak={setStreak} userId={userId} token={token}/>
     <BmiOverview userId={userId} token={token}/></div>
     <WeightProChart userId={userId} token={token} />
-    {/* <ProgressSummary/> */}
+   
 </div>
 }
 export default DashBoardMain;

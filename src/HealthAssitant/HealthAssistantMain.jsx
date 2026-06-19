@@ -11,7 +11,6 @@ const HealthAssistantMain=()=>{
     <div className=" w-80 m-auto mt-5 h-[550px] relative  flex items-center flex-col bottom-20 p-1  md:flex-col md:w-full md:h-[450px] md:items-center md:gap-1 md:m-auto md:content-center  lg:px-56">
         <BmiCalculator setBmi={setBmi} bmi={bmi}/>
         <Recommendations bmi={bmi}/>
-        {/* <ChatBotLogo/> */}
         
     </div>
     

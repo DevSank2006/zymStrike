@@ -1,6 +1,6 @@
 
      const getUserAtdList=async(setAttendanceList,userId,token)=>{
-            const getData=await fetch(`http://localhost:8080/attendance/${userId}`,{
+            const getData=await fetch(`https://zymstrike-backend.onrender.com/attendance/${userId}`,{
                 method:"GET",
                 headers:{
                         "Authorization":`Bearer ${token}`

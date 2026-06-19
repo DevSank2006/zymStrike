@@ -2,7 +2,7 @@ const getStreak=async function(setStreak,userId,token){
     console.log(token)
     console.log(userId)
 
-        const getData=await fetch(`http://localhost:8080/attendance/streak/${userId}`,{
+        const getData=await fetch(`https://zymstrike-backend.onrender.com/attendance/streak/${userId}`,{
             method:"GET",
             headers:{
                 "Authorization":`Bearer ${token}`

@@ -1,5 +1,5 @@
 const WeightProgFunc= async(setData,userId,token)=>{
-    const fetchData=await fetch(`http://localhost:8080/health-records/${userId}`,{
+    const fetchData=await fetch(`https://zymstrike-backend.onrender.com/health-records/${userId}`,{
         method:"GET",
         headers:{
             "Authorization":`Bearer ${token}}`

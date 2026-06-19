@@ -7,7 +7,7 @@ const PostAttendanceFunc=async(setIsTrue,userId,setStreak,token)=>{
 
     const todaysDate=date.toISOString().split("T")[0];
     const postData=await 
-    fetch(`http://localhost:8080/attendance/${userId}`,{
+    fetch(`https://zymstrike-backend.onrender.com/attendance/${userId}`,{
         method:"POST",
         headers:{
             "Content-type":"application/json",

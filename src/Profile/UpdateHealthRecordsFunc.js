@@ -13,7 +13,7 @@ const UpdateHealthRecordsFunc=async(weight,editedWeight,height,editedHeight,edit
             body.goal=editedGoal
         }
 
-        const sendData=await fetch(`http://localhost:8080/health-records/${userId}`,{
+        const sendData=await fetch(`https://zymstrike-backend.onrender.com/health-records/${userId}`,{
             method:"POST",
             headers:{
                 "Content-type":"application/json",

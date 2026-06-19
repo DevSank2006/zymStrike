@@ -11,7 +11,6 @@ const [status,setStatus]=useState("Pending");
 const[todayDate,setTodayDate]=useState(new Date());
     useEffect(()=>{
         if(!userId || !token) return;
-        console.log(userId)
         getTodayAtd(setIsTrue,userId,token);
 },[userId])
 useEffect(()=>{
