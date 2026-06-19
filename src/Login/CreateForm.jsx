@@ -51,17 +51,17 @@ const[accContent,setAccContent]=useState("")
 
         <input onChange={(e)=>{setHeight(e.target.value
             )}} className=" h-10 outline-none border p-0.5 px-1.5 placeholder-[#ffffff68]  text-[#ffffff68] border-[#ffffff68]  rounded-md w-4/5 m-auto placeholder:text-sm focus:border-[#b4b4b4]
-        lg:w-full lg:h-12" type="number" placeholder="Height" />
+        lg:w-full lg:h-12" type="number" placeholder="Height (CM)" />
         <span className="text-red-800 text-sm h-0 relative left-8 bottom-2.5">{errors.height}</span>
 
         <input onChange={(e)=>{setWeight(e.target.value
             )}} className=" h-10 outline-none border p-0.5 px-1.5 placeholder-[#ffffff68]  text-[#ffffff68] border-[#ffffff68]  rounded-md w-4/5 m-auto placeholder:text-sm focus:border-[#b4b4b4]
-        lg:w-full lg:h-12" type="number" placeholder="Weight" />
+        lg:w-full lg:h-12" type="number" placeholder="Weight (KG)" />
         <span className="text-red-800 text-sm h-0 relative left-8 bottom-2.5">{errors.weight}</span>
 
         <input onChange={(e)=>{setGoal(e.target.value
             )}} className=" h-10 outline-none border p-0.5 px-1.5 placeholder-[#ffffff68]  text-[#ffffff68] border-[#ffffff68]  rounded-md w-4/5 m-auto placeholder:text-sm focus:border-[#b4b4b4]
-        lg:w-full lg:h-12" type="text" placeholder="Goal" />
+        lg:w-full lg:h-12" type="text" placeholder="Goal e.g Muscle Gain" />
         <span className="text-red-800 text-sm h-0 relative left-8 bottom-2.5">{errors.goal}</span>
             {accMsg && <span className="text-[#c5c5c5] text-center text-xs h-0 relative left-0 bottom-2.5 lg:-top-1.5 lg:text-md">{accContent}</span>}
 
