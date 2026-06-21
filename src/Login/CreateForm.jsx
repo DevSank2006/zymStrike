@@ -18,8 +18,9 @@ const[accMsg,setAccMsg]=useState(false);
 const[accContent,setAccContent]=useState("")
 //
 
-    return <div className=" bg-white/5 backdrop-blur-xl
-    border-[0.5px] border-[#79797967]  w-72 md:w-80 h-[400px] mt-12 rounded-xl grid content-start justify-center md:absolute md:right-8  lg:h-[350px] lg:w-[350px] lg:px-8 lg:py-8 lg:mt-15 overflow-y-auto no [&::-webkit-scrollbar]:hidden [scrollbar-width:none] [-ms-overflow-style:none]">
+
+    return <div className=" bg-[#181818] 
+    border-[0.5px] border-[#79797967]  w-72 md:w-80 h-[400px] mt-12 rounded-xl grid content-start justify-center md:absolute md:right-8 md:bg-white/8 backdrop-blur-lg lg:h-[350px] lg:w-[350px] lg:px-8 lg:py-8 lg:mt-15 overflow-y-auto no [&::-webkit-scrollbar]:hidden [scrollbar-width:none] [-ms-overflow-style:none]">
         <div className=" w-48 inline-block m-auto mt-2 lg:-mt-6">
             <div className=" inline mx-7"> <span className=" inline  text-[#d7d7d7] font-semibold text-[20px] text-center  ">Signup/</span>
             <span onClick={()=>{

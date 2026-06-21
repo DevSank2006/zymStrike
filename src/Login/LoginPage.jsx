@@ -13,7 +13,7 @@ const LoginPage=({setUserId,setToken})=>{
             strings:['Your journey to stength starts here.<br/>Log in to dominate.^2000'],
             typeSpeed:80,
             backSpeed:40,
-            loop:true,
+            loop:false,
             contentType:"html"
         });
         return ()=>{

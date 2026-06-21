@@ -11,7 +11,7 @@ const Form=({setIsLogin,setUserId,setToken})=>{
 useEffect(() => {
     setMessage("");
 }, []);
-    return <div className="bg-white/5  backdrop-blur-xl
+    return <div className="bg-[#181818] md:bg-white/5  backdrop-blur-xl
     border-[0.5px] border-[#79797967]  w-72 h-72 mt-12 rounded-xl grid content-start justify-center lg:h-[300px] lg:w-[350px] lg:p-8 lg:mt-15 ">
         <div className=" w-48 inline-block m-auto mt-2 lg:-mt-5">
             <div className="inline ml-7"><span className="  text-[#d7d7d7] font-semibold text-[20px] text-center ">Login/</span>
